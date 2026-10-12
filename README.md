@@ -24,6 +24,8 @@ Aplicação web desenvolvida em React que recria a interface da Netflix, consumi
 - **[TheMovieDB API](https://www.themoviedb.org/):** Base de dados de filmes, séries, cartazes e trailers.
 - **CSS3 Moderno:** Flexbox, animações de transição suave (*transform scale*) e gradientes lineares.
 
+Link: > 🔗 **Deploy online:** [netflix-clone-orcin-mu-83.vercel.app](https://netflix-clone-orcin-mu-83.vercel.app/)
+
 ---
 
 ## 📦 Como Executar o Projeto Localmente
@@ -34,15 +36,12 @@ git clone https://github.com/SEU_USUARIO/netflix-clone.git
 
 Entre na pasta:
 
-bash
 cd netflix-clone
 Instale as dependências:
 
-bash
 npm install
 Execute o servidor de desenvolvimento:
 
-bash
 npm run dev
 
 Abra no navegador: http://localhost:5173
