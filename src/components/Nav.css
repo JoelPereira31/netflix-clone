@@ -1,0 +1,31 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 30px;
+  height: 60px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+/* Classe aplicada quando o usuário rola a página */
+.nav__black {
+  background-color: #111;
+}
+
+.nav__logo {
+  width: 90px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.nav__avatar {
+  width: 32px;
+  object-fit: contain;
+  border-radius: 4px;
+  cursor: pointer;
+}
